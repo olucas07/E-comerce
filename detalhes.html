@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/56fbf84ca9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Todos os Produtos Red store </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItens">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="produtos.html">Produtos</a> </li>
+                    <li> <a href="">Contato</a> </li>
+                    <li> <a href="conta.html">Conta</a> </li>
+                </ul>
+            </nav>
+           <a href="carrinho.html"><img src="img/cart.png" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoglle()">
+        </div>
+    </div>
+
+    <!-- ------single produtos------ -->
+    <div class="small-container single-produtos">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/produto-1.jpg" width="100%" id="ProdutoImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/produto-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/galeriapsg1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/galeriapsg2.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+
+            </div>
+            <div class=" col-2">
+                        <p>Home / Camisa </p>
+                        <h1>Camisa PSG 20/21</h1>
+                        <h4><b>R$250,00</b></h4>
+                        <h6>ou até 7x de R$ 35,71</h6>
+                        <select>
+                            <option>Selecione</option>
+                            <option>PP</option>
+                            <option>P</option>
+                            <option>M</option>
+                            <option>G</option>
+                            <option>GG</option>
+                        </select>
+                        <input type="number" value="1">
+                        <a href="" class="btn-carrinho">Adicionar</a>
+
+                        <h3>Detalhes do produto <i class="fa fa-indent"></i></h3>
+                        <br>
+                        <p>Represente o seu time na Camisa Paris Saint-Germain Match Home. Tecido que absorve o suor
+                            ajuda a
+                            manter você seco e confortável, quer esteja em campo ou nas arquibancadas e os detalhes do
+                            time
+                            permitem que você o leve para onde quer que vá.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- titulo -->
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>Outros produtos</h2>
+                    <p>Veja mais</p>
+                </div>
+            </div>
+
+            <!-- ----- featured produtos ------- -->
+            <div class="small-container">
+
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/produto-1.jpg" alt="">
+                        <h4>Camisa PSG 20/21</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$250,00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/produto-2.jpg" alt="">
+                        <h4>Camisa Corinthians 20/21</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$250,00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/produto-3.jpg" alt="">
+                        <h4>Camisa Bragantino 20/21</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$250,00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/produto-4.jpg" alt="">
+                        <h4>Camisa Liverpool 20/21</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$250,00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- footer -->
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download do APP</h3>
+                            <p>Download para Android e IOS</p>
+                            <div class="app-logo">
+                                <img src="img/play-store.png" alt="">
+                                <img src="img/app-store.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="img/logo-white.png" alt="">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi praesentium nulla
+                                temporibus
+                                nostrum
+                                natus libero odio ratione exercitationem ipsa, molestiae neque quasi expedita? Iste aut,
+                                unde
+                                aspernatur
+                                quisquam accusamus temporibus!</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful links</h3>
+                            <ul>
+                                <li>Cupons</li>
+                                <li>Blog post </li>
+                                <li>Return policy</li>
+                                <li>Join affilate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Redes sociais</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>YouTube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="copy">Copy 2021 - Lucas</p>
+                </div>
+            </div>
+            <!-- toggle menu -->
+            <script>
+                var menuItens = document.getElementById("menuItens")
+                menuItens.style.maxHeight = "0px"
+
+                function menutoglle() {
+                    if (menuItens.style.maxHeight == "0px") {
+
+                        menuItens.style.maxHeight = "200px"
+                    } else {
+                        menuItens.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+
+
+            <!-- ---- js produto galeria---- -->
+            <script>
+                var ProdutoImg = document.getElementById("ProdutoImg");
+                var SmallImg = document.getElementsByClassName("small-img");
+
+                SmallImg[0].onclick = function(){
+                    Produtoimg.src = SmallImg[0].src;
+                }
+                SmallImg[1].onclick = function(){
+                    ProdutoImg.src = SmallImg[1].src;
+                }
+                SmallImg[2].onclick = function(){
+                    ProdutoImg.src = SmallImg[2].src;
+                }
+ 
+            </script>
+
+</body>
+
+</html>

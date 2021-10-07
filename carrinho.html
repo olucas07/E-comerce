@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/56fbf84ca9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Todos os Produtos Red store </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItens">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="produtos.html">Produtos</a> </li>
+                    <li> <a href="">Contato</a> </li>
+                    <li> <a href="conta.html">Conta</a> </li>
+                </ul>
+            </nav>
+            <a href="carrinho.html"><img src="img/cart.png" width="30px" height="30px"></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoglle()">
+        </div>
+    </div>
+
+    <!-- car item detalhes -->
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/galeria1.jpg" alt="">
+                        <div>
+                            <p>Camisa PSG 20/21</p>
+                            <small>Preço: R$ 250,00</small>
+                            <br>
+                            <a href="">Romover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$250,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/produto-2.jpg" alt="">
+                        <div>
+                            <p>Camisa Corinthians 20/21</p>
+                            <small>Preço: R$ 250,00</small>
+                            <br>
+                            <a href="">Romover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$250,00</td>
+            </tr> 
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/produto-3.jpg" alt="">
+                        <div>
+                            <p>Camisa Bragantino 20/21</p>
+                            <small>Preço: R$ 250,00</small>
+                            <br>
+                            <a href="">Romover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$250,00</td>
+            </tr>
+        </table>
+        <div class="total-pice">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R$750,00</td>
+                </tr>
+                <tr>
+                    <td>Frete</td>
+                    <td>R$30,00</td>
+                </tr>  <tr>
+                    <td>Total</td>
+                    <td>R$780,00</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+            <!-- footer -->
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download do APP</h3>
+                            <p>Download para Android e IOS</p>
+                            <div class="app-logo">
+                                <img src="img/play-store.png" alt="">
+                                <img src="img/app-store.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="img/logo-white.png" alt="">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi praesentium nulla
+                                temporibus
+                                nostrum
+                                natus libero odio ratione exercitationem ipsa, molestiae neque quasi expedita? Iste aut,
+                                unde
+                                aspernatur
+                                quisquam accusamus temporibus!</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful links</h3>
+                            <ul>
+                                <li>Cupons</li>
+                                <li>Blog post </li>
+                                <li>Return policy</li>
+                                <li>Join affilate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Redes sociais</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>YouTube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="copy">Copy 2021 - Lucas</p>
+                </div>
+            </div>
+            <!-- toggle menu -->
+            <script>
+                var menuItens = document.getElementById("menuItens")
+                menuItens.style.maxHeight = "0px"
+
+                function menutoglle() {
+                    if (menuItens.style.maxHeight == "0px") {
+
+                        menuItens.style.maxHeight = "200px"
+                    } else {
+                        menuItens.style.maxHeight = "0px"
+                    }
+                }
+            </script>
+
+</body>
+
+</html>
